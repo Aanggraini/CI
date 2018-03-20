@@ -172,11 +172,9 @@ Licence URI: http://www.os-templates.com/template-terms
 <center><h1>CONTACT US</h1></center>
 <link rel="stylesheet" href="asset/styles/form3.css" type="text/css">
 <div id="section">
-        <?php echo form_open('insert_ctrl'); ?>
+        
 				<section class="contact-wrap">
-          <?php if (isset($message)) { ?>
-          <CENTER><h3 style="color:green;">Data inserted successfully</h3></CENTER><br>
-          <?php } ?>
+          
 
 				  <form action="send_mail.php" class="contact-form" method="post">
 					<div class="col-sm-6">
